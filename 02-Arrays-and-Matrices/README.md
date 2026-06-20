@@ -20,7 +20,7 @@ This directory contains 5 specific programs based on my university lab sheets (P
     * **Purpose:** Practicing data movement and shifting logic within memory blocks.
 
 * **`04_matrix_transpose.c`**
-    * **What it does:** It initializes a 3x3 matrix using a mathematical formula ($M[i][j] = 3i+j$), prints the original grid, and then transposes it by swapping its rows and columns.
+    * **What it does:** It initializes a 3x3 matrix using a mathematical formula (M[i][j] = 3i+j), prints the original grid, and then transposes it by swapping its rows and columns.
     * **Purpose:** Getting comfortable with nested `for` loops and 2D grid structures.
 
 * **`05_matrix_diagonals.c`**
