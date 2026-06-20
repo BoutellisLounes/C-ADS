@@ -37,7 +37,7 @@ int main() {
     // --- Output Phase ---
     // Using %.2f to display only 2 decimal places. This makes the output much cleaner to read!
     printf("\n--- Results ---\n");
-    printf("Addition:       (%.2f + %.2fi) + (%.2f + %.2fi) = %.2f + %.2fi\n", 
+    printf("Addition: (%.2f + %.2fi) + (%.2f + %.2fi) = %.2f + %.2fi\n", 
            nbr1.real, nbr1.img, nbr2.real, nbr2.img, nbr_add_res.real, nbr_add_res.img);
            
     printf("Multiplication: (%.2f + %.2fi) * (%.2f + %.2fi) = %.2f + %.2fi\n", 
