@@ -1,5 +1,6 @@
 # Sub-Project 01: My First Steps in C & Control Loops
-
+![Language](https://img.shields.io/badge/Language-C-blue.svg)
+![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 ## Overview
 In this first module, I started my journey into programming by setting up my coding environment and learning the basic rules of logic. I focused on understanding variables, conditions, and different types of loops to solve practical problems.
 
