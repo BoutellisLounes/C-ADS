@@ -1,5 +1,6 @@
 # Sub-Project 04: Functions and Recursion
-
+![Language](https://img.shields.io/badge/Language-C-blue.svg)
+![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 ## Overview
 In this fourth module, I explored the fundamentals of functions, procedures, and recursion. I transitioned from manipulating structures and strings to learning how to handle subprograms and construct recursive logic from scratch. The main focus of this section was to understand how functions and procedures work and how to apply them to solve practical logic problems, simplifying repeated actions and reusing code whenever needed in the main program.
 
