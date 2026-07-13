@@ -5,7 +5,7 @@
 
 ## 📌 About The Project
 
-This repository is part of my **C-ADS** (C - Algorithms and Data Structures) personal portfolio, developed during my ***1st year of Computer Science Engineering***.
+This module is part of my **C-ADS** (C - Algorithms and Data Structures) personal portfolio, developed during my ***1st year of Computer Science Engineering - Summer 2026***.
 
 This module focuses entirely on **Singly Linked Lists**, **Stacks** and **Queues** in C. It is divided into multiple practical exercises to master pointer manipulation, memory allocation, and list traversal, stack and queue manipulation.
 
