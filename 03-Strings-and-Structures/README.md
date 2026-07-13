@@ -1,5 +1,6 @@
 # Sub-Project 03: Strings and Custom Structures
-
+![Language](https://img.shields.io/badge/Language-C-blue.svg)
+![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 ## Overview
 In this third module, I explored the fundamentals of text manipulation and custom data types in C. I transitioned from handling basic numbers and mathematical arrays to learning how to handle words (strings) and complex records. The main focus of this section was to understand how the C language manages characters in memory and how to group different variables together using `struct` to model real-world concepts.
 
