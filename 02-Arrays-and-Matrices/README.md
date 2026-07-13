@@ -1,5 +1,6 @@
 # Sub-Project 02: Working with Arrays & Matrices
-
+![Language](https://img.shields.io/badge/Language-C-blue.svg)
+![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 ## Overview
 In this second module, I moved from working with simple, single variables to managing larger groups of data. I focused on understanding how computer memory stores continuous sequences of information. By working on these exercises, I learned how to build and manipulate single-dimensional arrays (vectors) and two-dimensional arrays (matrices).
 
