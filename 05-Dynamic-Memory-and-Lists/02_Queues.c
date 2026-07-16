@@ -20,3 +20,34 @@ void initQueue(Pqueue *Qh, Pqueue *Qq){
 int IsEmptyQueue(Pqueue Qh, Pqueue Qq){
     return (Qq == NULL) ? 0 : 1;
 }
+
+void EnQueue(Pqueue *Qh, Pqueue *Qq, Student std){
+    Pqueue Q = (Pqueue)malloc(sizeof(Student));
+    strcpy(Q->name,std.name);
+    strcpy(Q->surname,std.surname);
+    Q->algo_grade = std.algo_grade;
+    Q->next = NULL;
+    
+    if((*Qq) != NULL) {
+        (*Qq)->next = Q;
+        (*Qq) = Q;
+    }
+    if((*Qh) == NULL) (*Qh) = Q;
+}
+
+void DeQueue(Pqueue *Qh, Pqueue *Qq, Student *std){
+    if (not(IsEmpty(*Qh,*Qq))) {
+        Pqueue temp_Queue;
+        strcpy(*std->name,(*Qh)->name);
+        strcpy(*std->surname,(*Qh)->surname);
+        *std->algo_grade = (*Qh)->algo_grade;
+        temp_Queue = (*Qh); 
+        (*Qh) = (*Qh)->next;
+        free(temp_Queue); 
+        if ((*Qh) == NULL) {
+            (*Qq) = NULL;
+        }
+    }else {
+        printf("Error : The Queue is Empty !");
+    }
+}
