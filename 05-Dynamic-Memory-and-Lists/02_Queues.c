@@ -51,3 +51,43 @@ void DeQueue(Pqueue *Qh, Pqueue *Qq, Student *std){
         printf("Error : The Queue is Empty !");
     }
 }
+
+void DisplayStudents(Pqueue *Qh, Pqueue *Qq) {
+    Pqueue th, tq;
+    int j=1;
+    initQueue(&th, &tq);
+    Student y;
+
+    while ( !IsEmpty(*Qh, *Qq) ) {
+        DeQueue(Qh,Qq,&y);
+        printf("Student No.%d :, %s %s, Grade : %2.f\n", j, y.name, y.surname, y.algo_grade);
+        i++;
+        EnQueue(&th ,&tq, y);
+    }
+    *Qh = th;
+    *Qq = tq;
+}
+
+int countStudents(Pqueue *Qh, Pqueue *Qq) {
+    
+    if( IsEmpty(Qh,Qq) ){
+        printf("Error : The queue is empty !");
+
+    } else{
+
+        int count = 0;
+        Pqueue th,tq;
+        Student STD;
+        initQueue(&th,&tq);
+
+        while ( !IsEmpty(*Qh,*Qq) ) {
+            DeQueue(Qh,Qq,*STD);
+            count++;
+            EnQueue(&th,&tq,STD);
+        }
+
+        *Qh = th;
+        *Qq = tq;
+        return count;
+    }   
+}
