@@ -91,3 +91,49 @@ int countStudents(Pqueue *Qh, Pqueue *Qq) {
         return count;
     }   
 }
+
+float sumGrades(Pqueue *Qh, Pqueue *Qq){
+    Pqueue th, tq;
+    Student x;
+    float sum = 0;
+    initQueue(&th,&tq);
+
+    while ( !IsEmpty(*Qh, *Qq)) {
+        DeQueue(Qh,Qq, &x);
+        sum+=x.algo_grade;
+        EnQueue(&th,&tq,x);
+    }
+    *Qh=th;
+    *Qq=tq;
+    
+    return sum;
+}
+
+float averageGrades(Pqueue *Qh,Pqueue *Qq){
+    int count_Students = countStudents(Qh,Qq);
+    float sum_grades = sumGrades(Qh,Qq);
+
+    return sum_grades / count_Students;
+}
+
+int countAboveAverage(Pqueue *Qh, Pqueue *Qq) {
+    int count = 0;
+    Student x;
+    Pqueue th,tq;
+    initQueue(&th,&tq);
+    float average_grades = averageGrades(Qh,Qq);
+
+    while( !IsEmpty(*Qh,*Qq) ) {
+        Dequeue(Qh,Qq,&x);
+        if ( x.algo_grade > average_grades) count++;
+        EnQueue(&th,&tq,x);
+    }
+    *Qh = th;
+    *Qq = Tq;
+
+    return count;
+}
+
+
+
+
