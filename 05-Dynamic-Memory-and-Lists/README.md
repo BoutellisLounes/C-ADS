@@ -26,3 +26,20 @@ typedef struct student {
 } student;
 
 typedef student* Pstud;
+```
+## ⚙️ Exercise 02: Student Grades Manager (Queues - FIFO)
+
+This exercise implements ***a queue-based student management system***. It stores student records and provides operations for processing their algorithm grades, such as calculating statistics and counting students that satisfy specific conditions.
+
+The `main` program demonstrates the implementation by calling the different functions and procedures developed throughout the exercise.
+
+### Data Structure
+The `Student` structure is identical to the one used in the previous linked-list exercise. The only difference is the underlying data structure: *this exercise utilizes a queue (**First-In, First-Out**) instead of **a standard linked list***.
+.
+## ⚙️ Exercise 03: Student Grades Manager (Stacks - LIFO)
+This third exercise implements ***a stack-based student management system***. It stores records of student information and provides counting and comparing operations based on their algorithm grades according to **specific initial conditions**.
+
+The `main` program shows the detailed implementation by calling the different functions and procedures in the same way as previous exercises.
+
+### Data Structure
+As with the ***queue exercise***, the core data structure **remains identical**. It uses the same `Student` **record** containing the previous data about each student. The difference here is the underlying logic: this exercise uses a stack (***Last-In, First-Out***).
