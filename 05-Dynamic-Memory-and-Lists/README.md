@@ -11,7 +11,7 @@ This module focuses entirely on **Singly Linked Lists**, **Stacks** and **Queues
 
 ---
 
-## ⚙️ Exercise 01: Student Grades Manager
+## ⚙️ Exercise 01: Student Grades Manager using Linked Lists
 
 The objective of this first exercise is to manage a dynamic list of students and perform various calculations on their algorithmics grades. 
 
