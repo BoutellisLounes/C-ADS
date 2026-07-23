@@ -26,3 +26,14 @@ typedef struct student {
 } student;
 
 typedef student* Pstud;
+```
+
+## ⚙️ Exercise 02: Student Grades Manager using queues
+
+This project implements a ***queue-based student management system***. It stores student records and provides operations for processing their algorithm grades, such as calculating statistics and counting students that satisfy specific conditions.
+
+The `main` program demonstrates the implementation by calling the different functions and procedures developed throughout the exercise.
+
+### Data Structure
+
+The `Student` structure is identical to the one used in the previous linked-list project. The only difference is the underlying data structure: this project uses a **queue** instead of a **linked list**.
